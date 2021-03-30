@@ -1,0 +1,223 @@
+@media (max-width: 1269px)
+{
+    /*---------------
+        Main styles
+    ---------------*/
+
+
+
+    /*---------------
+        Header
+    ---------------*/
+    header .logo
+    {
+        width: 185px;
+        padding-right: 15px;
+        padding-left: 0;
+
+        border-left: none;
+    }
+
+
+    header .contacts
+    {
+        width: 215px;
+    }
+
+
+    header .lk
+    {
+        width: 85px;
+    }
+
+
+    header .col.center
+    {
+        width: calc(100% - 485px);
+    }
+
+    header .time,
+    header .links
+    {
+        padding: 0 30px;
+    }
+
+
+
+    /*---------------
+        Sidebar
+    ---------------*/
+
+
+
+    /*---------------
+        Main section
+    ---------------*/
+    .main_slider .owl-carousel .owl-nav .owl-prev
+    {
+        left: -15px;
+    }
+
+    .main_slider .owl-carousel .owl-nav .owl-next
+    {
+        right: -15px;
+    }
+
+
+
+    .about_block .desc
+    {
+        padding-left: 250px;
+    }
+
+
+    .about_block .advantages .title
+    {
+        width: 400px;
+    }
+
+    .about_block .advantages .grid
+    {
+        width: calc(100% - 400px);
+    }
+
+
+
+    .advantages_block .cont
+    {
+        padding: 0;
+    }
+
+
+
+    .products .block_title
+    {
+        font-size: 19px;
+    }
+
+    .products .grid .product .thumb
+    {
+        height: 200px;
+    }
+
+
+
+    .rent_advantages .data img
+    {
+        right: -290px;
+    }
+
+
+    .rent_advantages .bottom .grid
+    {
+        width: calc(100% - 345px);
+    }
+
+    .rent_advantages .bottom .item br
+    {
+        display: none;
+    }
+
+
+
+    .terms_rent .item
+    {
+        width: 25%;
+    }
+
+    .terms_rent .item .name
+    {
+        padding: 0 15px;
+    }
+
+    .terms_rent .item br
+    {
+        display: none;
+    }
+
+
+
+    .gallery .slider
+    {
+        padding: 0 40px;
+    }
+
+    .gallery .owl-carousel .owl-nav .owl-prev
+    {
+        left: 0;
+    }
+
+    .gallery .owl-carousel .owl-nav .owl-next
+    {
+        right: 0;
+    }
+
+
+
+    .partners .grid
+    {
+        justify-content: center;
+    }
+
+    .partners .grid img
+    {
+        margin: 0 15px 15px;
+    }
+
+
+
+    .product_info .data .consult_link
+    {
+        float: left;
+
+        margin-top: 0;
+        margin-right: 0;
+    }
+
+
+
+    .text_block .grid img.right
+    {
+        max-width: calc(60% - 50px);
+        margin-left: 50px;
+    }
+
+    .text_block .grid img.left
+    {
+        max-width: calc(60% - 50px);
+        margin-right: 50px;
+    }
+
+
+    .text_block .grid figure
+    {
+        flex-wrap: wrap;
+    }
+
+    .text_block .grid figure figcaption
+    {
+        margin-bottom: -20px;
+        padding-top: 15px;
+        padding-left: 0;
+    }
+
+
+
+    .order_block .col.left .phone
+    {
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+
+
+    /*---------------
+        Footer
+    ---------------*/
+
+
+
+    /*---------------
+        PopUp
+    ---------------*/
+}

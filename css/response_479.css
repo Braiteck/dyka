@@ -1,0 +1,250 @@
+@media (max-width: 479px)
+{
+    /*---------------
+        Main styles
+    ---------------*/
+    .page_title
+    {
+        font-size: 26px;
+        line-height: 28px;
+    }
+
+
+
+    /*---------------
+        Header
+    ---------------*/
+    header .logo
+    {
+        border-bottom: none;
+    }
+
+    header .col.center
+    {
+        height: 44px;
+    }
+
+    header .links
+    {
+        display: none;
+    }
+
+
+    header .contacts
+    {
+        width: calc(100% - 100px);
+    }
+
+
+    header .lk
+    {
+        width: 100px;
+    }
+
+
+
+    /*---------------
+        Sidebar
+    ---------------*/
+
+
+
+    /*---------------
+        Main section
+    ---------------*/
+    .about_block .title
+    {
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .about_block .advantages .item
+    {
+        width: 100%;
+    }
+
+    .about_block .advantages .item .icon
+    {
+        width: 65px;
+    }
+
+    .about_block .advantages .item .icon img
+    {
+        margin: 0 auto;
+    }
+
+    .about_block .advantages .item .name
+    {
+        width: calc(100% - 80px);
+    }
+
+
+
+    .advantages_block .title
+    {
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+    .advantages_block .title img
+    {
+        height: 80px;
+        margin-bottom: 15px;
+    }
+
+
+    .advantages_block .items .item
+    {
+        width: 100%;
+    }
+
+
+
+    .banner_block .banner
+    {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+
+    .products .block.threeoffour .grid .product,
+    .products .grid .product,
+    .products .block.oneoffour .grid .product
+    {
+        width: calc(100% + 1px);
+    }
+
+
+
+    .rent_advantages .block_title,
+    .terms_rent .block_title,
+    .gallery .block_title,
+    .partners .block_title
+    {
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+
+    .rent_advantages .bottom .title
+    {
+        font-size: 22px;
+        line-height: 26px;
+    }
+
+    .rent_advantages .bottom .item
+    {
+        font-size: 14px;
+
+        width: 100%;
+    }
+
+
+
+    .terms_rent .item,
+    .terms_rent .item:nth-child(1),
+    .terms_rent .item:nth-child(2),
+    .terms_rent .item:nth-child(3),
+    .terms_rent .item:nth-child(4)
+    {
+        width: 100%;
+    }
+
+
+
+    .bottom_block
+    {
+        padding-top: 40px;
+    }
+
+
+
+    .partners .grid img
+    {
+        margin: 0 6px 15px;
+    }
+
+
+
+    .text_block h2
+    {
+        font-size: 22px;
+        line-height: 24px;
+    }
+
+    .text_block h3
+    {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+
+    .text_block table td
+    {
+        line-height: 18px;
+
+        padding: 7px 10px;
+    }
+
+
+
+
+    .tabs
+    {
+        flex-wrap: wrap;
+    }
+
+    .tabs li
+    {
+        width: 100%;
+    }
+
+    .tabs li + li
+    {
+        margin-top: 3px;
+        margin-left: 0;
+    }
+
+
+
+    .form .lines .line
+    {
+        width: 100%;
+    }
+
+    .form .agree
+    {
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 25px;
+    }
+
+    .form .submit
+    {
+        width: 100%;
+
+        text-align: center;
+    }
+
+
+
+    /*---------------
+        Footer
+    ---------------*/
+    footer .links
+    {
+        width: 100%;
+
+        text-align: center;
+    }
+
+
+
+    /*---------------
+        PopUp
+    ---------------*/
+    .modal
+    {
+        padding: 30px 20px;
+    }
+}

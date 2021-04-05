@@ -53,6 +53,13 @@
     /*---------------
         Main section
     ---------------*/
+    .page_video .mouse_wrap
+    {
+        display: none;
+    }
+
+
+
     .main_slider .owl-carousel .owl-nav .owl-prev
     {
         left: -15px;
@@ -207,6 +214,185 @@
     {
         font-size: 30px;
         line-height: 36px;
+    }
+
+
+
+    .most_profitable_transport .info
+    {
+        width: 375px;
+    }
+
+    .most_profitable_transport .info .title
+    {
+        font-size: 23px;
+        line-height: 130%;
+
+        margin-bottom: 40px;
+    }
+
+    .most_profitable_transport .info ul li
+    {
+        font-size: 16px;
+
+        padding-left: 30px;
+    }
+
+    .most_profitable_transport .info ul li + li
+    {
+        margin-top: 15px;
+    }
+
+    .most_profitable_transport .info ul li:before
+    {
+        left: 0;
+    }
+
+
+    .most_profitable_transport .rent
+    {
+        width: calc(100% - 415px);
+        padding: 40px 30px;
+    }
+
+    .most_profitable_transport .rent .title,
+    .most_profitable_transport .rent .step
+    {
+        font-size: 17px;
+    }
+
+    .most_profitable_transport .rent .sep
+    {
+        height: 33px;
+        margin: 37px 0;
+    }
+
+
+
+    .product_promo .product_name
+    {
+        font-size: 48px;
+    }
+
+
+    .product_promo .data .img
+    {
+        top: -92px;
+        bottom: auto;
+    }
+
+
+    .product_promo .data .desc
+    {
+        width: 500px;
+        min-height: 472px;
+        margin: 0;
+        padding: 52px;
+    }
+
+
+    .product_promo .data .features
+    {
+        width: 100%;
+        margin: 0;
+    }
+
+    .product_promo .data .features .intro
+    {
+        display: none;
+    }
+
+    .product_promo .data .features .list,
+    .product_promo .data .features:hover .list
+    {
+        width: 100%;
+        padding: 40px 40px 40px 114px;
+
+        transform: translateX(0);
+    }
+
+    .product_promo .data .features .list .head .title
+    {
+        font-size: 28px;
+    }
+
+
+
+    .tariffs .block_title
+    {
+        font-size: 44px;
+
+        margin-bottom: 30px;
+    }
+
+
+    .tariffs .row
+    {
+        margin-bottom: -20px;
+        margin-left: -20px;
+    }
+
+    .tariffs .row > *
+    {
+        width: calc(50% - 20px);
+        margin-bottom: 20px;
+        margin-left: 20px;
+    }
+
+
+    .tariffs .tariff
+    {
+        min-height: 502px;
+        padding: 24px 24px 96px;
+    }
+
+
+    .tariffs .tariff .head .type
+    {
+        font-size: 15px;
+
+        margin-bottom: 4px;
+    }
+
+    .tariffs .tariff .head .name
+    {
+        font-size: 22px;
+    }
+
+
+    .tariffs .tariff .desc
+    {
+        font-size: 15px;
+    }
+
+
+    .tariffs .tariff .features
+    {
+        font-size: 15px;
+    }
+
+    .tariffs .tariff .features > *:before
+    {
+        top: 7px;
+    }
+
+
+    .tariffs .tariff .btns
+    {
+        min-height: 96px;
+        padding: 24px;
+    }
+
+    .tariffs .tariff .order_btn
+    {
+        font-size: 17px;
+
+        padding: 13px 32px;
+    }
+
+    .tariffs .tariff .details
+    {
+        font-size: 15px;
     }
 
 

@@ -21,7 +21,7 @@
 
     header .col.center
     {
-        height: 44px;
+        height: 1px;
     }
 
     header .links
@@ -52,6 +52,13 @@
     /*---------------
         Main section
     ---------------*/
+    .page_video
+    {
+        height: calc(100vh - 192px);
+    }
+
+
+
     .about_block .title
     {
         font-size: 25px;
@@ -224,6 +231,155 @@
         width: 100%;
 
         text-align: center;
+    }
+
+
+
+    .most_profitable_transport .info .title
+    {
+        font-size: 17px;
+    }
+
+
+    .most_profitable_transport .rent
+    {
+        width: calc(100% + 40px);
+        max-width: calc(100% + 40px);
+        margin-right: -20px;
+        margin-left: -20px;
+        padding: 20px;
+    }
+
+
+    .most_profitable_transport .rent .steps
+    {
+        margin-bottom: -24px;
+
+        justify-content: center;
+    }
+
+    .most_profitable_transport .rent .sep
+    {
+        display: none;
+    }
+
+    .most_profitable_transport .rent .step
+    {
+        width: calc(50% - 10px);
+        margin-bottom: 24px;
+    }
+
+
+
+    .product_promo .product_name
+    {
+        font-size: 28px;
+        line-height: 32px;
+
+        padding: 0 20px;
+
+        text-align: center;
+    }
+
+
+    .product_promo .data
+    {
+        padding-top: 20px;
+    }
+
+    .product_promo .data .img
+    {
+        width: 220px;
+    }
+
+    .product_promo .data .desc
+    {
+        font-size: 14px;
+
+        padding: 0 20px 24px;
+    }
+
+    .product_promo .data .desc .title
+    {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+
+    .product_promo .data .features .list,
+    .product_promo .data .features:hover .list
+    {
+        padding: 20px 0 20px 52px;
+    }
+
+
+
+    .tariffs .block_title
+    {
+        font-size: 26px;
+
+        margin-bottom: 20px;
+    }
+
+
+    .tariffs .row
+    {
+        margin-left: 0;
+    }
+
+
+    .tariffs .tariff
+    {
+        width: calc(100% + 40px);
+        max-width: calc(100% + 40px);
+        margin-right: -20px;
+        margin-left: -20px;
+        padding: 20px;
+    }
+
+    .tariffs .tariff .head .name
+    {
+        font-size: 18px;
+    }
+
+    .tariffs .tariff .desc
+    {
+        font-size: 14px;
+    }
+
+    .tariffs .tariff .features
+    {
+        font-size: 14px;
+    }
+
+    .tariffs .tariff .features > *:before
+    {
+        top: 6px;
+    }
+
+
+    .tariffs .tariff .btns
+    {
+        position: relative;
+
+        min-height: 0;
+        margin-top: 24px;
+        padding: 0;
+    }
+
+    .tariffs .tariff .order_btn
+    {
+        width: 100%;
+
+        text-align: center;
+    }
+
+    .tariffs .tariff .details
+    {
+        width: 100%;
+        margin-top: 12px;
+
+        justify-content: center;
     }
 
 

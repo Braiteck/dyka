@@ -40,6 +40,7 @@
     header .col.center
     {
         width: 100%;
+        height: auto;
 
         border-left: none;
     }
@@ -47,14 +48,41 @@
     header .time,
     header .links
     {
+        height: auto;
         padding: 0 15px;
     }
 
     header .time
     {
+        display: none;
+
         text-align: center;
 
         justify-content: center;
+    }
+
+
+
+    header .contacts .phone
+    {
+        font-size: 17px;
+        line-height: 25px;
+
+        width: 100%;
+    }
+
+    header .contacts .callback_link
+    {
+        font-size: 14px;
+
+        margin-top: 8px;
+        margin-left: 0;
+    }
+
+
+    header .lk a
+    {
+        font-size: 15px;
     }
 
 
@@ -136,6 +164,13 @@
     /*---------------
         Main section
     ---------------*/
+    .page_video
+    {
+        height: calc(100vh - 232px);
+    }
+
+
+
     .about_block
     {
         margin-bottom: 25px;
@@ -351,6 +386,156 @@
     .form .agree
     {
         padding-top: 8px;
+    }
+
+
+
+    .most_profitable_transport .info .title
+    {
+        font-size: 18px;
+    }
+
+
+    .most_profitable_transport .rent
+    {
+        margin-top: 28px;
+        padding: 24px;
+    }
+
+    .most_profitable_transport .rent .sep
+    {
+        height: 24px;
+        margin: 34px 0;
+    }
+
+    .most_profitable_transport .rent .title,
+    .most_profitable_transport .rent .step
+    {
+        font-size: 15px;
+    }
+
+    .most_profitable_transport .rent .step .icon
+    {
+        width: 92px;
+        height: 92px;
+        margin-bottom: 12px;
+    }
+
+    .most_profitable_transport .rent .step .icon img
+    {
+        transform: scale(.75);
+    }
+
+
+
+    .product_promo .product_name
+    {
+        font-size: 34px;
+    }
+
+
+
+    .product_promo .data
+    {
+        padding-top: 24px;
+    }
+
+    .product_promo .data .img
+    {
+        position: relative;
+        top: 0;
+        left: 0;
+
+        width: 280px;
+        margin: 0 auto 4px;
+    }
+
+    .product_promo .data .desc
+    {
+        width: 100%;
+        min-height: 0;
+        padding: 0 24px 24px;
+    }
+
+
+    .product_promo .data .features .list,
+    .product_promo .data .features:hover .list
+    {
+        padding: 20px 20px 20px 72px;
+    }
+
+
+    .product_promo .data .features .list .head
+    {
+        width: 53px;
+        padding: 20px 12px;
+    }
+
+    .product_promo .data .features .list .head .icon
+    {
+        width: 29px;
+    }
+
+    .product_promo .data .features .list .head .title
+    {
+        font-size: 20px;
+    }
+
+    .product_promo .data .features .list .head .arrow
+    {
+        max-width: 100%;
+    }
+
+
+    .product_promo .data .features .list .item
+    {
+        padding: 4px 0;
+    }
+
+    .product_promo .data .features .list .item .name
+    {
+        font-weight: 500;
+
+        width: 100%;
+    }
+
+    .product_promo .data .features .list .item .val
+    {
+        width: 100%;
+        padding: 0 16px;
+    }
+
+
+
+    .tariffs .block_title
+    {
+        font-size: 30px;
+
+        margin-bottom: 24px;
+    }
+
+
+    .tariffs .tariff
+    {
+        padding: 24px 24px 92px;
+    }
+
+    .tariffs .tariff .head .name
+    {
+        font-size: 20px;
+    }
+
+    .tariffs .tariff .btns
+    {
+        min-height: 92px;
+        padding: 24px;
+    }
+
+    .tariffs .tariff .order_btn
+    {
+        font-size: 16px;
+
+        padding: 12px 28px;
     }
 
 

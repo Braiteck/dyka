@@ -35,8 +35,43 @@
     header .lk,
     header .contacts
     {
+        display: flex;
+
         width: 50%;
-        padding: 0 15px;
+        height: auto;
+        padding: 12px 15px;
+
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        flex-wrap: wrap;
+    }
+
+    header .contacts .phone
+    {
+        font-size: 18px;
+        line-height: 26px;
+
+        width: auto;
+    }
+
+    header .contacts .callback_link
+    {
+        font-size: 15px;
+
+        margin-top: 0;
+        margin-left: auto;
+    }
+
+
+    header .lk a
+    {
+        padding-top: 20px;
+    }
+
+    header .lk a br
+    {
+        display: none;
     }
 
 
@@ -65,6 +100,12 @@
     /*---------------
 		Main section
 	---------------*/
+    .page_video
+    {
+        height: calc(100vh - 229px);
+    }
+
+
     .main_slider
     {
         margin-bottom: 30px;
@@ -339,6 +380,132 @@
     .form .title
     {
         text-align: center;
+    }
+
+
+
+    .most_profitable_transport .info
+    {
+        width: 100%;
+    }
+
+    .most_profitable_transport .info .title
+    {
+        font-size: 20px;
+
+        margin-bottom: 20px;
+    }
+
+    .most_profitable_transport .info .title br
+    {
+        display: none;
+    }
+
+
+    .most_profitable_transport .info ul li
+    {
+        font-size: 15px;
+    }
+
+    .most_profitable_transport .info ul li + li
+    {
+        margin-top: 10px;
+    }
+
+
+    .most_profitable_transport .rent
+    {
+        width: 100%;
+        margin-top: 32px;
+        padding: 32px;
+    }
+
+
+
+    .product_promo .product_name
+    {
+        font-size: 40px;
+    }
+
+
+    .product_promo .data .img
+    {
+        width: 350px;
+    }
+
+
+    .product_promo .data .desc
+    {
+        font-size: 15px;
+
+        width: 400px;
+        min-height: 324px;
+        margin: 0;
+        padding: 40px;
+    }
+
+    .product_promo .data .desc .title
+    {
+        font-size: 17px;
+    }
+
+
+    .product_promo .data .features .list,
+    .product_promo .data .features:hover .list
+    {
+        padding: 28px 24px 28px 100px;
+    }
+
+    .product_promo .data .features .list .head .icon
+    {
+        width: 40px;
+    }
+
+    .product_promo .data .features .list .head .title
+    {
+        font-size: 24px;
+    }
+
+    .product_promo .data .features .list .item
+    {
+        font-size: 14px;
+        line-height: 18px;
+
+        padding: 2px 0;
+    }
+
+
+
+    .tariffs .block_title
+    {
+        font-size: 38px;
+
+        margin-bottom: 25px;
+    }
+
+
+    .tariffs .row > *
+    {
+        width: calc(100% - 20px);
+    }
+
+
+    .tariffs .tariff
+    {
+        min-height: 0;
+        padding: 32px 32px 112px;
+    }
+
+    .tariffs .tariff .btns
+    {
+        min-height: 112px;
+        padding: 32px;
+    }
+
+
+    .tariffs .tariff .back .features > *:before
+    {
+        top: 6px;
     }
 
 
